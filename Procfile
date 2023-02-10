@@ -1,0 +1,1 @@
+web gunicorn parsingwidl.wsgi:application --log-file -
