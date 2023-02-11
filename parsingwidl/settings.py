@@ -79,8 +79,12 @@ WSGI_APPLICATION = 'parsingwidl.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'mydatabase',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'postgres',
+        'USER': 'postgres',
+        'PASSWORD': '3hR7F4wJoSn8Rbet',
+        'HOST': 'db.qsqmcbemiwwfmpucadeh.supabase.co',
+        'PORT': '5432',
     }
 }
 

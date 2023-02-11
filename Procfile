@@ -1,1 +1,1 @@
-web: gunicorn 'parsingwidl.wsgi'
+web: gunicorn parsingwidl.wsgi --log-file -
